@@ -1,0 +1,50 @@
+{
+    "attributes": {"mapDef1": {
+        "bbox": [
+            2.14676180327,
+            41.3906001729,
+            2.20731535399,
+            41.4099470474
+        ],
+        "dpi": 300,
+        "layers": [{
+            "baseURL": "http://api.tmb.cat/v1/maps/wms",
+            "customParams": {
+                "TRANSPARENT": "true",
+                "app_id": "f7b34f42",
+                "app_key": "c1708a798d0c879002694a90b825937a"
+            },
+            "imageFormat": "image/png",
+            "layers": ["TMB:CARTO_SOFT"],
+            "type": "WMS",
+            "version": "1.1.1"
+        }],
+        "longitudeFirst": true,
+        "projection": "EPSG:4326",
+        "rotation": 0
+    }, "mapDef2": {
+        "bbox": [
+            2.14676180327,
+            41.3906001729,
+            2.20731535399,
+            41.4099470474
+        ],
+        "dpi": 300,
+        "layers": [{
+            "baseURL": "http://api.tmb.cat/v1/maps/wms",
+            "customParams": {
+                "TRANSPARENT": "true",
+                "app_id": "f7b34f42",
+                "app_key": "c1708a798d0c879002694a90b825937a"
+            },
+            "imageFormat": "image/png",
+            "layers": ["TMB:XARXA_METRO"],
+            "type": "WMS",
+            "version": "1.1.1"
+        }],
+        "longitudeFirst": true,
+        "projection": "EPSG:4326",
+        "rotation": 0
+    }},
+    "layout": "A4 landscape"
+}
