@@ -1,6 +1,6 @@
 # TMB-mapfish-samples
 
-## How use these samples?
+## How to use these samples?
 
 1. Download mapfish print servlet from [repository](https://oss.sonatype.org/content/repositories/snapshots//org/mapfish/print/print-servlet/)
 2. Copy the WAR file into the webapps Tomcat folder
