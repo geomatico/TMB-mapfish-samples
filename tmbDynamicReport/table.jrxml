@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2015-06-24T11:01:52 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DJR_2141" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" scriptletClass="ar.com.fdvs.dj.core.DJDefaultScriptlet" whenResourceMissingType="Key" uuid="e034c6ef-7449-4a6a-9b5e-4ce04cc083b2">
+	<parameter name="SUBREPORT_DIR" class="java.lang.String"/>
+	<parameter name="attribute_center_esting" class="java.lang.String"/>
+	<parameter name="attribute_scale" class="java.lang.String"/>
+	<parameter name="attribute_comment" class="java.lang.String"/>
+	<parameter name="attribute_title" class="java.lang.String"/>
+	<parameter name="attribute_srs" class="java.lang.String"/>
+	<parameter name="attribute_center_northing" class="java.lang.String"/>
+	<parameter name="attribute_rotation" class="java.lang.String"/>
+	<parameter name="map_main" class="java.awt.image.BufferedImage"/>
+	<parameter name="attribute_units" class="java.lang.String"/>
+	<field name="ID_ESTACIO_LINIA" class="java.lang.String"/>
+	<field name="NOM_ESTACIO" class="java.lang.String"/>
+	<field name="CODI_ESTACIO" class="java.lang.String"/>
+	<field name="DATA_INICI" class="java.lang.String"/>
+	<field name="DATA_FI" class="java.lang.String"/>
+	<field name="ORDRE" class="java.lang.String"/>
+	<pageHeader>
+		<band/>
+	</pageHeader>
+	<columnHeader>
+		<band height="38">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="1adf6d86-1e3a-46ed-b5db-3f8e967b8002"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ID ESTACIO LINIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="30" uuid="1eb35fad-911b-4cc2-bd3c-9ddd62defe68"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[NOM ESTACIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="30" uuid="405fd9e6-dd57-461a-a78d-121d54821eb1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[CODI ESTACIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="0" width="100" height="30" uuid="e614b86e-a3c8-4a2a-a181-1efaac501667"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[ORDRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="30" uuid="45ace39f-27bf-4370-91b7-3cf7a72b2342"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[DATA INICI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="0" width="100" height="30" uuid="5cc4198c-8fd8-4267-bd15-460e8b2fd3d5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[DATA FI]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="36" splitType="Immediate">
+			<textField pattern="">
+				<reportElement x="0" y="0" width="100" height="30" uuid="75641fe1-187b-42df-b8e6-761ddf933209"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ID_ESTACIO_LINIA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="100" y="0" width="100" height="30" uuid="84fdc2ad-7a30-4285-bf69-099337b80413"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NOM_ESTACIO}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="200" y="0" width="100" height="30" uuid="05c8e6c7-6f40-4975-b0ac-71e65b856ee8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{CODI_ESTACIO}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="500" y="0" width="100" height="30" uuid="5632b24d-755b-4e5b-a088-c6cd77ea0fca"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{ORDRE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="300" y="0" width="100" height="30" uuid="ec582c3f-400b-49c7-84a8-27fc4c3c4fe5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{DATA_INICI}]]></textFieldExpression>
+			</textField>
+			<textField pattern="">
+				<reportElement x="400" y="0" width="100" height="30" uuid="7d92e11c-4be7-467f-bbb4-72d273cd5912"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{DATA_FI}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band/>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
